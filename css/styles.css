@@ -20,6 +20,14 @@
 
 }
 
+body {
+    background-color: #FFF;
+    font-family: "Roboto",
+            sans-serif;
+    color: #434455;
+
+}
+
 .first-section {
     background: var(--navyblue, #2E2F42);
     flex-shrink: 0;
