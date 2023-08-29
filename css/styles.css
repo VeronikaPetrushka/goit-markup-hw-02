@@ -20,7 +20,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
@@ -82,7 +82,7 @@
     font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
 }
