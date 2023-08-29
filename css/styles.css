@@ -1,3 +1,10 @@
+.body {
+    background-color: #FFF;
+    font-family: "Roboto",
+        sans-serif;
+    color: #434455;
+}
+
 .nav-page {
     color: var(--navyblue, #2E2F42);
     font-family: "Roboto", sans-serif;
@@ -8,24 +15,49 @@
     letter-spacing: 0.32px;
 }
 
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03px;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.studio {
+    color: #2e2f42;
+}
+
+.nav-list {
+    color: #2e2f42;
+
+}
+
+.nav-list:hover,
+.nav-list:focus {
+    color: #404bbf;
+
+}
+
+.address {
+    font-style: normal;
+}
+
 .contacts {
-    color: var(--slate, #434455);
+    color: #434455;
     font-family: "Roboto",
         sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 
 }
 
-body {
-    background-color: #FFF;
-    font-family: "Roboto",
-            sans-serif;
-    color: #434455;
-
+.contacts:hover,
+.contacts:focus {
+    color: #404bbf;
 }
 
 .first-section {
@@ -40,12 +72,24 @@ body {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 
 .button-order {
     background: var(--iris, #4D5AE5);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.04;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button-order:hover,
+.button-order:focus {
+    background-color: #404BBF;
 }
 
 .benefits-list-h {
@@ -83,7 +127,7 @@ body {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -139,9 +183,13 @@ body {
     letter-spacing: 0.32px;
 }
 
-footer {
+.footer {
     flex-shrink: 0;
     background: var(--navyblue, #2E2F42);
+}
+
+.studio-footer {
+    color: #f4f4fd;
 }
 
 .footer-text {
